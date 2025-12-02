@@ -1,17 +1,31 @@
-p {color: rgb(8, 8, 156); font-size: 16px;}
-h3{color:#580058;}
-h2{color:rgb(8, 8, 156)}
-h1{color: rgb(89, 0, 255);}
 
-.titulo {
-    text-align: center; 
-    color:#5c025c ;
+h1 {
+    color: rgba(54, 0, 155, 0.527);
 }
 
-.song1 {
+h2 {
+    color: rgba(39, 1, 109, 0.582);
+}
 
+h3 {
+    color: #580058;
+}
+
+p {
+    color: rgb(8, 8, 156);
+    font-size: 16px;
+}
+
+li {
+    color: rgb(8, 8, 156);
+}
+
+.titulo {
+    text-align: center;
+    color: #5c025c;
 }
 
 .deco {
     text-align: right;
 }
+
