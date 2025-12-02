@@ -1,0 +1,26 @@
+
+
+.menu-navegacion a {
+    text-decoration: none;
+    color: #333;
+    font-family: sans-serif;
+    padding: 10px;
+    display: block;
+}
+.menu-navegacion > ul > li {
+    display: inline-block; 
+    list-style: none;
+    border-bottom: 2px solid transparent;
+}
+.activo a {
+    color: #020072; 
+    font-weight: bold;
+}
+
+.activo + li {
+    border-left: 2px solid #ccc; 
+}
+
+.activo ~ li a {
+    opacity: 0.6; 
+}

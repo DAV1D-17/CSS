@@ -1,0 +1,67 @@
+
+.tarjeta-perfil {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    overflow: hidden; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    
+}
+.tarjeta-perfil .card-header {
+    background-color: #4a90e2;
+    height: 100px;
+    position: relative;
+}
+.avatar-container {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.card-body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+.card-body > .nombre-usuario {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.nombre-usuario + .rol-usuario {
+    display: block;
+    margin-top: 5px;
+    color: #777;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.rol-usuario ~ .descripcion {
+    font-style: italic;
+    color: #555;
+    margin: 15px 0;
+}
+
+.btn-contacto {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn-contacto:hover {
+    background-color: #357abd;
+}

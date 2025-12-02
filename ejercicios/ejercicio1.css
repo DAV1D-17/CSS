@@ -1,0 +1,17 @@
+
+
+.contenedor-principal .texto-azul {
+    color: blue;
+}
+
+.contenedor-principal > .texto-destacado {
+    font-weight: bold;
+}
+
+.titulo-seccion + .subtitulo {
+    text-decoration: underline;
+}
+
+.titulo-seccion ~ .info-extra {
+    font-style: italic;
+}
